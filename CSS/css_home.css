@@ -1,0 +1,52 @@
+body{
+    /* background-color: #F2F2F2; */
+    background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg)
+}
+.navbar{
+    background-color: #F26D3D;
+    margin-bottom: 20px;
+    padding: 2%;
+    font-size: 1em;
+    color: #FFFFFF;
+    }
+
+.navbar-brand{
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin: 0%;
+    }
+
+.nav-item{
+    color: #FFFFFF;
+    /* margin-left: 5%; */
+    font-size: 1.2rem;
+}
+
+.container-fluid{
+    width: 90%;
+}
+
+.offcanvas{
+    background-color: #F26D3D;    
+}
+
+.offcanvas-title{
+    float: right;
+    padding-right: 68%;
+}
+
+.btn{
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    background-color: #F26D3D;
+    /* float: right; */
+    }
+    
+/* Hero */
+.container{
+    background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg);
+}
+
+#confirmation-button{
+    float: right;
+}

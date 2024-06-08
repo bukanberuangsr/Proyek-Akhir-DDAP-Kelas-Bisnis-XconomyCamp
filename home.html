@@ -9,11 +9,11 @@
       integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS/style_home.css">
+    <link rel="stylesheet" href="CSS/css_home.css">
     <title>Home Page | XconomyCamp</title>
 </head>
 <body>
-    <!-- Offset Navbar -->
+    <!-- Offset Fluid Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><b>XconomyCamp</b></a>
@@ -38,11 +38,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href=""><b>Testimoni</b></a>
+                <a class="nav-link active" href="#"><b>Testimoni</b></a>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-light">
-                  <b>Join XconomyCamp</b>
+                <button type="button" class="btnprofile btn-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
                 </button>
               </li>
             </ul>
@@ -52,17 +54,13 @@
     </nav>
     
     <!-- Hero Image -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="Resources/People_working_in_elegant_and_cozy_office_space.jpg" class="d-block mx-lg-auto img-fluid" alt="">
-        </div>
+    <!-- <img src="Resources/People_working_in_elegant_and_cozy_office_space.jpg" class="img-fluid" alt=""> -->
+    <div class="container-fluid col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Jadilah bagian dari perekonomian bangsa!</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            <button type="button" class="btn btn-md px-4 me-md-2" id="confirmation-button">Mulai Pembelajaran</button>
           </div>
         </div>
       </div>
