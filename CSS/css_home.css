@@ -1,7 +1,8 @@
 body{
-    /* background-color: #F2F2F2; */
-    background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg)
+    background-color: #F2F2F2;
+    /* background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg) */
 }
+/* Navbar area */
 .navbar{
     background-color: #F26D3D;
     margin-bottom: 20px;
@@ -31,22 +32,15 @@ body{
 }
 
 .offcanvas-title{
-    float: right;
-    padding-right: 68%;
+    color: #FFFFFF;
+    font-size: 150%;
+    padding-right: 55%;
 }
 
 .btn{
-    padding-bottom: 5px;
     color: #FFFFFF;
     background-color: #F26D3D;
-    /* float: right; */
     }
     
-/* Hero */
-.container{
-    background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg);
-}
+/* Hero image and content */
 
-#confirmation-button{
-    float: right;
-}
