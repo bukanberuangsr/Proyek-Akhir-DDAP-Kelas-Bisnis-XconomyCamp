@@ -11,7 +11,7 @@ body{
 
 .navbar-brand{
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 1.70rem;
     margin: 0%;
     }
 
@@ -22,7 +22,7 @@ body{
 }
 
 .container-fluid{
-    width: 100%;
+    width: 90%;
 }
 
 .offcanvas{
@@ -47,7 +47,7 @@ header{
 }
 
 .left{
-    padding-top: 4%;
+    padding-top: 3%;
     align-items: center;
 }
 
@@ -60,7 +60,21 @@ header{
     align-items: center;
 }
 
+.grup:hover{
+    color: #000000;
+}
+
 /* Review area */
+.review_page{
+    color: #F26D3D;
+    /* display: grid;
+    place-items: center; */
+}
+.isi{
+    background-color: #F26D3D;
+
+}
+
 /* Footer area */
 footer{
     background-color: #F2C53D;
