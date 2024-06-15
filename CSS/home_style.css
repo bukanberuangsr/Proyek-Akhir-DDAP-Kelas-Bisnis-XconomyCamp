@@ -1,12 +1,10 @@
 body{
     background-color: #F2F2F2;
-    /* background-image: url(Resources/People_working_in_elegant_and_cozy_office_space.jpg) */
+    font-family: 'Century Gothic';
 }
 /* Navbar area */
 .navbar{
     background-color: #F26D3D;
-    margin-bottom: 20px;
-    padding: 2%;
     font-size: 1em;
     color: #FFFFFF;
     }
@@ -24,7 +22,7 @@ body{
 }
 
 .container-fluid{
-    width: 90%;
+    width: 100%;
 }
 
 .offcanvas{
@@ -41,6 +39,29 @@ body{
     color: #FFFFFF;
     background-color: #F26D3D;
     }
-    
-/* Hero image and content */
+/* Hero Image area */
+header{
+    background-size: cover;
+    min-height: 50vh;
+    align-items: center;
+}
 
+.left{
+    padding-top: 4%;
+    align-items: center;
+}
+
+/* Three Buttons area */
+.content_page{
+    color: #FFFFFF;
+    background-color: #F26D3D;
+}
+.content_btn{
+    align-items: center;
+}
+
+/* Review area */
+/* Footer area */
+footer{
+    background-color: #F2C53D;
+}
