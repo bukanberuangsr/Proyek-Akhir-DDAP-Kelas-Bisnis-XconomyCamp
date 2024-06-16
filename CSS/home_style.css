@@ -21,10 +21,6 @@ body{
     font-size: 1.2rem;
 }
 
-.container-fluid{
-    width: 90%;
-}
-
 .offcanvas{
     background-color: #F26D3D;    
 }
