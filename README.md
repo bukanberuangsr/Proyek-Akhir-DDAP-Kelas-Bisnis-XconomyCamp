@@ -27,13 +27,13 @@ Bootstrap 5 bisa diakses pada link berikut:
 
 ## To-do List
 
-- [ ] Membuat file html
+- [X] Membuat file html
   1. home_page (sudah)
   2. signin_page (sudah)
-  3. signup_page (copy of sign in, belum)
-  4. user_page (belum)
-  5. camp_page (belum)
-  6. tutor_page (belum)
-  7. edu_page (belum)
-- [ ] Membuat file css dan js untuk tiap html
-- [ ] Finalisasi bentuk website
+  3. user_page (Sudah)
+  4. camp_page (Sudah)
+  5. tutor_page (Sudah)
+  6. edu_page (sudah)
+- [X] Membuat file css untuk tiap html
+- [ ] Membuat file JS fungsional untuk tiap file html
+- [X] Finalisasi bentuk website
